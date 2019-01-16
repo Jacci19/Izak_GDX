@@ -1,0 +1,17 @@
+Moje dopasowanie projektu Izak z czyjegoś gita do mojego intellij
+
+To co przy libGDX czyli:
+1. Ściagnij AndroidStudio (lub chociaż androidSDK)
+2. Ściągnij i odpal plik "gdx-setup.jar"  (https://libgdx.badlogicgames.com/download.html)
+3. Wypełniamy odpowiednie pola  (możesz wykorzystać printscreen)
+4. Jak znaleźć ścieżkę do android SDK? Odpal Android Studio. Na małym głównym oknie na dole
+kliknij "Configure -> SDK Manager". Pojawi się okno. Na górze jest podana ścieżka do Android SDK.
+5. Zaznaczyłem też Box2D bo ten projekt to wykorzystuje. Kliknąłem też "advanced" i zaznaczyłem "Idea".
+6. W oknie warning (android api ver) wybałem "Yes". (gdy wziąłem ną było failed)
+7. Czekamy.
+8. Jeśli mamy Build Successful to w IntellijIdea otwieramy ten projekt z pliku ipr
+9. Kopiujemy do tego projektu pliki z Core (katalogi: assets i src) i (desktop/src/main) Izaka. Należy przypilnować aby powstały dobre package.
+10. Odpalamy z Desktop/Src.....
+11. Naprawiamy błędy kompilacji
+- nie widzi jpgów - w project structure ustalamy "resource" na "android/assets"
+- zmieniamy wersje javy na 1.8 z 1.6
